@@ -18,11 +18,6 @@ class Solution:
                 if start + length > len(s):
                     break
                     
-                segment = s[start:start+length]
-                
-                # Check for invalid leading zeros (e.g., "01", "001")
-                if len(segment) > 1 and segment[0] == '0':
-                    continue
-            
+           
              
         return res
