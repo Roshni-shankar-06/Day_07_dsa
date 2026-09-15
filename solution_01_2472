@@ -1,1 +1,23 @@
-
+class Solution:
+    def maxPalindromes(self, s: str, k: str) -> int:
+        n = len(s)
+        count = 0
+        i = 0
+        
+        while i < n:
+            # Check if a palindrome of length k starts at index i
+            if i + k <= n and s[i : i + k] == s[i : i + k][::-1]:
+                count += 1
+                i += k  # Skip the matched palindrome to prevent overlap
+                continue
+                
+            # Check if a palindrome of length k + 1 starts at index i
+            if i + k + 1 <= n and s[i : i + k + 1] == s[i : i + k + 1][::-1]:
+                count += 1
+                i += k + 1  # Skip the matched palindrome to prevent overlap
+                continue
+                
+            # If no palindrome is found starting at i, just move to the next character
+            i += 1
+            
+        return count
