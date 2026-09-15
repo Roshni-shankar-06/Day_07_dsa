@@ -5,7 +5,6 @@ class Solution:
         num_cols = len(strs[0])
         
         # Iterate over each column
-        for col in range(num_cols):
-            # Check rows from top to bottom
+      
           
 
