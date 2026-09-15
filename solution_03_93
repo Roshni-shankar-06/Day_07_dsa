@@ -23,10 +23,6 @@ class Solution:
                 # Check for invalid leading zeros (e.g., "01", "001")
                 if len(segment) > 1 and segment[0] == '0':
                     continue
-                    
-                # Check if the segment value is within the legal range [0, 255]
-                if int(segment) > 255:
-                    continue
-                    
+            
              
         return res
