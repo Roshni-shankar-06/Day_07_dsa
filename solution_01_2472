@@ -7,7 +7,4 @@ class Solution:
         while i < n:
             # Check if a palindrome of length k starts at index i
             if i + k <= n and s[i : i + k] == s[i : i + k][::-1]:
-                count += 1
-                i += k  # Skip the matched palindrome to prevent overlap
-                continue
-                
+             
