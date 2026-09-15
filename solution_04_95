@@ -1,9 +1,6 @@
 class Solution:
   def generateTrees(self, n: int) -> list[TreeNode]:
-    if n == 0:
-      return []
-
-    def generateTrees(mn: int, mx: int) -> list[int | None]:
+   
     
 
 
