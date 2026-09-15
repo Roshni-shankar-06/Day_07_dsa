@@ -24,6 +24,3 @@ class Solution:
     inorder(root)
     swap(self.x, self.y)
 
-  pred = None
-  x = None  # the first wrong node
-  y = None  # the second wrong node
