@@ -2,9 +2,4 @@ class Solution:
     def maxPalindromes(self, s: str, k: str) -> int:
         n = len(s)
         count = 0
-        i = 0
-        
-        while i < n:
-            # Check if a palindrome of length k starts at index i
-            if i + k <= n and s[i : i + k] == s[i : i + k][::-1]:
-             
+       
