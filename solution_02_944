@@ -1,10 +1,7 @@
 class Solution:
     def minDeletionSize(self, strs: list[str]) -> int:
         delete_count = 0
-        num_rows = len(strs)
-        num_cols = len(strs[0])
-        
-        # Iterate over each column
+
       
           
 
