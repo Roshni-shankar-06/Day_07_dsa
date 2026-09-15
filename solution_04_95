@@ -1,5 +1,4 @@
-class Solution:
-  def generateTrees(self, n: int) -> list[TreeNode]:
+
    
     
 
