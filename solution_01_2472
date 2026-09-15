@@ -16,8 +16,4 @@ class Solution:
                 count += 1
                 i += k + 1  # Skip the matched palindrome to prevent overlap
                 continue
-                
-            # If no palindrome is found starting at i, just move to the next character
-            i += 1
-            
-        return count
+          
