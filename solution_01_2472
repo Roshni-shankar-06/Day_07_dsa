@@ -1,5 +1,1 @@
-class Solution:
-    def maxPalindromes(self, s: str, k: str) -> int:
-        n = len(s)
-        count = 0
-       
+
