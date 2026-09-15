@@ -4,10 +4,7 @@ class Solution:
       return []
 
     def generateTrees(mn: int, mx: int) -> list[int | None]:
-      if mn > mx:
-        return [None]
-
-      ans = []
+    
 
 
    
