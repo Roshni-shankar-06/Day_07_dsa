@@ -1,6 +1,4 @@
-class Solution:
-    def minDeletionSize(self, strs: list[str]) -> int:
-        delete_count = 0
+
 
       
           
