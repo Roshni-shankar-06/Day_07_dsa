@@ -5,11 +5,7 @@ class Solution:
       x.val = y.val
       y.val = temp
 
-    def inorder(root: TreeNode | None) -> None:
-      if not root:
-        return
-
-      inorder(root.left)
+ 
 
   
 
