@@ -1,9 +1,7 @@
 class Solution:
   def recoverTree(self, root: TreeNode | None) -> None:
     def swap(x: TreeNode | None, y: TreeNode | None) -> None:
-      temp = x.val
-      x.val = y.val
-      y.val = temp
+      
 
  
 
