@@ -9,7 +9,5 @@ class Solution:
 
       ans = []
 
-      for i in range(mn, mx + 1):
-        for left in generateTrees(mn, i - 1):
-          for right in generateTrees(i + 1, mx):
+
    
