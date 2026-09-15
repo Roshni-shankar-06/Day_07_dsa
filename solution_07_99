@@ -21,6 +21,3 @@ class Solution:
 
       inorder(root.right)
 
-    inorder(root)
-    swap(self.x, self.y)
-
