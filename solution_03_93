@@ -6,10 +6,5 @@ class Solution:
         if len(s) < 4 or len(s) > 12:
             return res
 
-        def backtrack(start: int, path: list[str]):
-            # Base case: if we have 4 segments and reached the end of the string
-            if len(path) == 4:
-                if start == len(s):
-                    res.append(".".join(path))
-                return
+   
        
