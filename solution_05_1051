@@ -10,8 +10,4 @@ class Solution:
     for height in heights:
       while count[currentHeight] == 0:
         currentHeight += 1
-      if height != currentHeight:
-        ans += 1
-      count[currentHeight] -= 1
-
-    return ans
+    
