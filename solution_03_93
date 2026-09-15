@@ -2,9 +2,6 @@ class Solution:
     def restoreIpAddresses(self, s: str) -> list[str]:
         res = []
         
-        # Early exit if the string cannot possibly form a valid IP address
-        if len(s) < 4 or len(s) > 12:
-            return res
 
    
        
