@@ -11,8 +11,5 @@ class Solution:
 
       inorder(root.left)
 
-      if self.pred and root.val < self.pred.val:
-        self.y = root
-        if not self.x:
-       
+  
 
